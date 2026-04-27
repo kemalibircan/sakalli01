@@ -238,6 +238,17 @@ export default function HomePage() {
           </a>
         </div>
       </section>
+
+      <section className="home-logo-band" aria-label="Sakallı01 Rent A Car">
+        <div className="container home-logo-band-inner">
+          <Image
+            src="/image/logo.png"
+            alt="Sakallı01 Rent A Car logo"
+            width={380}
+            height={380}
+          />
+        </div>
+      </section>
     </>
   );
 }
