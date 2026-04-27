@@ -721,8 +721,17 @@ img {
 
 .card-actions {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
+}
+
+.car-card .card-actions .btn {
+  min-width: 0;
+  padding-inline: 12px;
+}
+
+.vehicle-results .card-actions {
+  grid-template-columns: 1fr;
 }
 
 .campaign-band {
