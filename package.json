@@ -1,0 +1,22 @@
+{
+  "name": "sakalli-rent-a-car",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate:assets": "python3 scripts/generate_assets.py",
+    "download:vehicle-images": "python3 scripts/download_vehicle_images.py"
+  },
+  "dependencies": {
+    "lucide-react": "1.11.0",
+    "next": "16.2.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "overrides": {
+    "postcss": "8.5.12"
+  },
+  "devDependencies": {}
+}
