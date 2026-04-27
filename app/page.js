@@ -62,15 +62,6 @@ export default function HomePage() {
 
       <section className="section section-advantages">
         <div className="container">
-          <div className="advantages-logo-showcase reveal">
-            <Image
-              src="/image/logo.png"
-              alt="Sakallı01 Rent A Car logo"
-              width={260}
-              height={260}
-              priority
-            />
-          </div>
           <SectionHeader
             eyebrow="Neden Sakallı?"
             title="Güven, hız ve konfor aynı çizgide"
