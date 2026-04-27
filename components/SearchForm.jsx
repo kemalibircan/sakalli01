@@ -2,7 +2,7 @@
 
 import { CalendarDays, CarFront, MapPin, Search } from "lucide-react";
 
-const locations = ["İstanbul Merkez", "İstanbul Havalimanı", "Sabiha Gökçen", "Kurumsal Teslimat"];
+const locations = ["Adana Seyhan", "Yeşiloba Ofis", "Adana Merkez", "Kurumsal Teslimat"];
 const classes = ["Tümü", "Ekonomi", "Ekonomi Plus", "Konfor", "Business", "SUV", "Premium"];
 
 function todayInputValue(offset = 0) {
@@ -39,7 +39,7 @@ export function SearchForm({ compact = false, onSearch }) {
           <MapPin size={16} />
           Alış Lokasyonu
         </span>
-        <select name="pickupLocation" defaultValue="İstanbul Merkez">
+        <select name="pickupLocation" defaultValue="Adana Seyhan">
           {locations.map((location) => (
             <option key={location}>{location}</option>
           ))}
@@ -51,7 +51,7 @@ export function SearchForm({ compact = false, onSearch }) {
           <MapPin size={16} />
           Teslim Lokasyonu
         </span>
-        <select name="returnLocation" defaultValue="İstanbul Merkez">
+        <select name="returnLocation" defaultValue="Adana Seyhan">
           {locations.map((location) => (
             <option key={location}>{location}</option>
           ))}

@@ -51,7 +51,7 @@ export default function ContactPage() {
             <div className="map-placeholder" aria-label="Harita alanı">
               <MapPin size={34} />
               <strong>Sakallı01 Rent A Car</strong>
-              <span>İstanbul merkezli premium araç kiralama</span>
+              <span>Adana Seyhan merkezli premium araç kiralama</span>
             </div>
           </div>
 

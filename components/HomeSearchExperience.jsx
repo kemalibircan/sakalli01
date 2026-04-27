@@ -7,8 +7,8 @@ import { SearchForm } from "@/components/SearchForm";
 import { buildWhatsAppUrl, vehicles } from "@/lib/data";
 
 const initialCriteria = {
-  pickupLocation: "İstanbul Merkez",
-  returnLocation: "İstanbul Merkez",
+  pickupLocation: "Adana Seyhan",
+  returnLocation: "Adana Seyhan",
   pickupDate: "",
   returnDate: "",
   vehicleClass: "Tümü"
