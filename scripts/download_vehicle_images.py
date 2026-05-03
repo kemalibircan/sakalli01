@@ -15,33 +15,33 @@ USER_AGENT = "Sakalli01RentACarWebsite/1.0 (local asset preparation)"
 
 ASSETS = [
     {
-        "slug": "renault-clio",
-        "title": "File:Renault Clio 0.9 TCe Dynamique 2017 (37006128596).jpg",
-        "crop_bias": "center",
-    },
-    {
         "slug": "fiat-egea",
         "title": "File:Fiat Egea in Pendik Istanbul.jpg",
         "crop_bias": "center",
     },
     {
-        "slug": "toyota-corolla",
-        "title": "File:2020 Toyota Corolla LE sedan.jpg",
+        "slug": "renault-clio",
+        "title": "File:Renault Clio 0.9 TCe Dynamique 2017 (37006128596).jpg",
         "crop_bias": "center",
     },
     {
-        "slug": "volkswagen-passat",
-        "title": "File:2020 Volkswagen Passat Business 140TSI front.jpg",
+        "slug": "volkswagen-passat-cc",
+        "title": "File:VOLKSWAGEN CC (PASSAT CC) China.jpg",
         "crop_bias": "center",
     },
     {
-        "slug": "peugeot-3008",
-        "title": "File:Peugeot 3008 Puretech Allure 2022 (54401874358).jpg",
+        "slug": "hyundai-i20",
+        "title": "File:Hyundai i20 (BC3) 1X7A6488.jpg",
         "crop_bias": "center",
     },
     {
-        "slug": "mercedes-c-serisi",
-        "title": "File:2018 Mercedes-Benz C300 4Matic in Black, front right.jpg",
+        "slug": "seat-leon",
+        "title": "File:SEAT Leon Mk4 1X7A5842.jpg",
+        "crop_bias": "center",
+    },
+    {
+        "slug": "volkswagen-jetta",
+        "title": "File:2022 Volkswagen Jetta VII 1X7A0154.jpg",
         "crop_bias": "center",
     },
 ]

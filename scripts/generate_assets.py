@@ -182,12 +182,12 @@ def main():
     SECTION_DIR.mkdir(parents=True, exist_ok=True)
     create_hero()
     create_about()
-    create_card_asset("renault-clio.png", (42, 43, 48), "compact", (213, 173, 79))
     create_card_asset("fiat-egea.png", (56, 59, 64), "sedan", (200, 205, 211))
-    create_card_asset("toyota-corolla.png", (28, 31, 36), "sedan", (143, 199, 165))
-    create_card_asset("volkswagen-passat.png", (10, 12, 15), "sedan", (213, 173, 79))
-    create_card_asset("peugeot-3008.png", (36, 39, 43), "suv", (240, 207, 118))
-    create_card_asset("mercedes-c-serisi.png", (8, 8, 10), "sedan", (240, 207, 118))
+    create_card_asset("renault-clio.png", (42, 43, 48), "compact", (213, 173, 79))
+    create_card_asset("volkswagen-passat-cc.png", (10, 12, 15), "sedan", (213, 173, 79))
+    create_card_asset("hyundai-i20.png", (32, 58, 86), "compact", (91, 170, 196))
+    create_card_asset("seat-leon.png", (98, 24, 22), "compact", (226, 198, 119))
+    create_card_asset("volkswagen-jetta.png", (34, 39, 47), "sedan", (200, 205, 211))
 
 
 if __name__ == "__main__":
